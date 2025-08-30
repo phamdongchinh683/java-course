@@ -1,15 +1,10 @@
 class main {
  public static void main(String[] args) {
-  byte a = 29;
-  byte t = -10;
-  // 1 byte
-  // Size: -128 to 127
-
-  // error: incompatible types: possible lossy conversion from int to byte
-  byte c = 129;
-  byte d = -129;
-
-  System.out.println("Age: " + a);
-  System.out.println("Temperature: " + t);
+  short num = 1000;
+  short t = -200;
+  // Size : 2 bytes (16 bits)
+  // -32,768 to 32,767
+  System.out.println("Number of Students: " + num); // Number of Students: 1000
+  System.out.println("Temperature: " + t); // Temperature: -200
  }
 }
