@@ -1,11 +1,10 @@
 class main {
  public static void main(String[] args) {
-  long w = 7800000000L;
-  long l = 9460730472580800L;
-  // Size : 8 bytes (64 bits)
-  // -9,223,372,036,854,775,80 to 9,223,372,036,854,775,807
-  System.out.println("World Population: " + w); // World Population: 7800000000
-  System.out.println("Light Year Distance: " + l); // Light Year Distance: 9460730472580800
-
+  float pi = 3.14f;
+  float gravity = 9.81f;
+  // Size : 4 bytes (32 bits)
+  // ~6-7 significant decimal digits
+  System.out.println("Value of Pi: " + pi); // Value of Pi: 3.14
+  System.out.println("Gravity: " + gravity); // Gravity: 9.81
  }
 }
