@@ -1,9 +1,9 @@
 class main {
  public static void main(String[] args) {
-  char g = 'A';
-  char s = '$';
-  // Size : 2 bytes (16 bits)
-  System.out.println("Grade: " + g); // Grade: A
-  System.out.println("Symbol: " + s); // Symbol: $
+  String n = "Geek1";
+  String m = "Hello, World!";
+
+  System.out.println("Name: " + n); // Name: Geek1
+  System.out.println("Message: " + m); // Message: Hello, World!
  }
 }
